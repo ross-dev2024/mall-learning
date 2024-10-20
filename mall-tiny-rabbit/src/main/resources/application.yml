@@ -6,7 +6,7 @@ spring:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
   rabbitmq:
-    host: localhost
+    host: 192.168.0.199
     port: 5672
     virtual-host: /mall
     username: mall
